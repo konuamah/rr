@@ -1,0 +1,134 @@
+/* styles.css */
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 32px; /* Increased font size for headings */}
+ 
+#banner {
+    width: 100%; /* This will make the image take up 100% of its container's width */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cagliostro', sans-serif;
+    font-size: 16px; /* Set default font size */
+}
+
+#logo { height: 25px;} 
+
+#navbar{
+    padding: 8px; margin: 0;
+}
+
+#banner { object-fit: cover;}
+
+#about { /* Use capital A */
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+
+}
+
+#description {
+    width: 50%;
+}
+
+#team {
+    width: 50%; 
+}
+
+#team-image {
+    border-radius: 5px; width: 100%;
+}
+ 
+h2 {
+    text-align: center;
+
+}
+
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+h3{margin-bottom: 5px;}
+
+.apply{
+    float:right
+
+}
+
+a{ text-decoration: none
+    ;}
+
+    #footer {
+        background-color: ghostwhite;
+        padding: 8px;
+        margin-top: 32px; /* Adjusted margin-top value */
+        text-align: center;
+    }
+    
+    #footerlinks {
+        list-style: none;
+        text-align: center;
+    }
+    
+    #footerlinks li {
+        display: inline;
+        margin: 0 16px;
+    }
+    
+    .Copyright {
+        color: grey;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+      
+
+
+ /* styles.css */
+
+/* Adjust width and height of input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 300px; /* You can adjust this value as needed */
+  height: 40px; /* You can adjust this value as needed */
+}
+
+/* styles.css */
+
+/* Styling for the form */
+form {
+    border-radius: 50px; /* You can adjust this value to change the roundness */
+    border: 2px solid #ccc; /* Adding border for visibility */
+    padding: 20px; /* Adding padding for better spacing */
+    background-color: #f9f9f9; /* Background color of the form */
+    font-family: Arial, sans-serif; /* Font family for the form */
+    color: #333; 
+    width: 50%/* Text color for the form */
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .form-heading {
+    margin-bottom: 5px; /* Adjust the margin bottom as needed */
+  }

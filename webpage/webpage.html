@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        My First Webpage
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cagliostro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+
+<body>
+<div id="navbar"> 
+    <img id="logo" alt="jovian_logo_dark" src="https://jovian.com/jovian_logo_dark.svg">
+
+</div>
+ 
+    <img id="banner" src="banner.jpg" alt="Banner" height="270">
+
+    <h1> About Jovian</h1>
+    
+    <div id="about">
+        <div id="description"> <p style="margin-top: 0;">At Jovian,we are on a mission to build the world's most highly reputed
+            technical university, and we're building it completely online. We offer several beginner friendly courses that
+              are taken by 300000 registered users.
+        </p>
+    
+        <p>We also offer 2 industry focused bootcamps:</p>
+        <ol>
+            <li><a href="https://jovian.com/learn/data-analysis-with-python-zero-to-pandas">Fullstack Developer Bootcamp</a>
+            </li>
+    
+            <li><a href="https://jovian.com/learn/sql-and-business-intelligence">Data Science Bootcamp</a></li>
+        </ol></div>
+        <div id="team">
+            <img id="team-image" src="team.jpg" alt="Banner">
+        </div>
+        
+    </div>
+    
+
+   
+   
+    <h2>Job Opportunities</h2>
+
+    <table>
+  <tr>
+    <th>Job Title</th>
+    <th>Location</th>
+    <th>City</th>
+    <th>Country</th>
+    <th>Salary</th>
+    <th>Date Posted</th>
+  </tr>
+  <tr>
+    <td>Frontend Engineer</td>
+    <td>Bengaluru, India</td>
+    <td>Bengaluru</td>
+    <td>India</td>
+    <td>$80,000/year</td>
+    <td>2024-02-24</td>
+  </tr>
+  <tr>
+    <td>Fullstack Engineer</td>
+    <td>Remote</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>$90,000/year</td>
+    <td>2024-02-24</td>
+  </tr>
+  <tr>
+    <td>Data Scientist</td>
+    <td>Mumbai, India</td>
+    <td>Mumbai</td>
+    <td>India</td>
+    <td>$100,000/year</td>
+    <td>2024-02-24</td>
+  </tr>
+  <tr>
+    <td>ML Engineer</td>
+    <td>Remote</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>$110,000/year</td>
+    <td>2024-02-24</td>
+  </tr>
+</table>
+
+<h2 class="form-heading">Job Application Form</h2>
+
+<div class="center">
+  <form action="#" method="post" enctype="multipart/form-data">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+    
+    <label for="position">Position Applied:</label><br>
+    <select id="position" name="position">
+      <option value="position1">Position 1</option>
+      <option value="position2">Position 2</option>
+      <option value="position3">Position 3</option>
+      <option value="position4">Position 4</option>
+    </select><br><br>
+    
+    <label for="cover-letter">Cover Letter:</label><br>
+    <textarea id="cover-letter" name="cover-letter" rows="4" cols="50"></textarea><br><br>
+    
+    <label for="resume">Upload Resume:</label><br>
+    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx"><br><br>
+    
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">I agree to the terms and conditions</label><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+            <div id="footer">
+                <ul id="footerlinks">
+                    <li><a href="https://jovian.com/" target="_blank">Courses</a></li>
+                    <li><a href="https://jovian.com/" target="_blank">Programs</a></li>
+                    <li><a href="https://www.youtube.com/@jovianhq" target="_blank">Youtube</a></li>
+
+
+                </ul>
+                <span class="Copyright">Copyright 2023</span>
+
+            </div>
+</body>
+
+</html>
